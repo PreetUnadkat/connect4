@@ -24,7 +24,7 @@ class Board
     check_over(row, column)
   end
   def check_over(row, column)
-    raise "Column is full" if row < 0
+    return false if row < 0
   
     directions = [
       [0, 1],  # Horizontal

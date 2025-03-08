@@ -1,3 +1,4 @@
+
 class Player
   attr_accessor :name, :number
   def initialize(name, number)
