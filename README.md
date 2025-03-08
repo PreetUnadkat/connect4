@@ -1,1 +1,1 @@
-# connect4
+A simple implementation of the classic Connect 4 game playable in the terminal.
