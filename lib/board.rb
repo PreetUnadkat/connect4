@@ -21,6 +21,7 @@ class Board
       end
       row -= 1
     end
+    # print_board
     check_over(row, column)
   end
   def check_over(row, column)

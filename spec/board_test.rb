@@ -49,7 +49,7 @@ describe Board do
         6.times do
           board.update_board(1, 1)
         end
-        expect { board.update_board(1, 1) }.to raise_error("Column is full")
+        expect(board.update_board(1, 1)).to eql(false)
       end
     end
   end
